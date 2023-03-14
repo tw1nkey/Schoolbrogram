@@ -35,10 +35,10 @@ namespace Program
                 // call method that displays items
                 try
                 {
-                // returns "Error" if it couldn't convert to num
-                menu_choice = AutoMenu(menu, menu_price, false);
+                    // returns "Error" if it couldn't convert to num
+                    menu_choice = AutoMenu(menu, menu_price, false);
 
-                // show choice sub menu and add to cart
+                    // show choice sub menu and add to cart
                 
                     switch (menu_choice)
                     {
